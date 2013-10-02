@@ -16,18 +16,19 @@ ani_timeBetweenMissions = 120;
 // east = 0 
 // west = 1
 // resistance = 2
-// civilian = 3 ## INOP!
+// civilian = 3 ## INOP! don't use
 ani_enemySide = 0;
-ani_friendlySide = 1;
+ani_friendlySide = 1; // better set this right.. 
 
 // friendly faction
 // 0 = CSAT
 // 1 = NATO
 // 2 = INDFOR (AAF)
-// 3 = Civilian ## INOP!
+// 3 = Civilian ## INOP! don't use
 // 4 = GRU Russian by massi
 // 5 = African Rebel Army by massi
 // 6 = African Rebel civilians by massi
+// 7 = USSCOM DEVGRU by massi
 ani_friendlyFaction = 1;
 
 
@@ -133,7 +134,7 @@ case 5: {
 
     ani_recruit_ARClass = "O_mas_afr_soldier_AR_F";
     ani_recruit_MGClass = "O_mas_afr_soldier_MG_F";
-    ani_recruit_ATClass = "O_mas_afr_soldier_AT_F";
+    ani_recruit_ATClass = "O_mas_afr_soldier_LAT_F";
     ani_recruit_LATClass = "O_mas_afr_soldier_LAT_F";
     ani_recruit_MedicClass = "O_mas_afr_medic_F";
     ani_recruit_PilotClass = "O_mas_afr_Soldier_lite_F";

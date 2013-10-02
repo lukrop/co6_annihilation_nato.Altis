@@ -58,6 +58,7 @@ class Mission
 	{
 		briefingName="CO6 Annihilation NATO 0.1";
 		overviewText="Complete random QRF missions.";
+		resistanceWest=0;
 		startWeather=0.29999998;
 		startWind=0.099999994;
 		startWaves=0.099999994;

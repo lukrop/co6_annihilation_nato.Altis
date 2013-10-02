@@ -17,7 +17,7 @@ class Params {
 		title="Suppression";
 		values[]={0,1,2};
 		default=0;
-		texts[]={"Disabled","TPCAS","TPW EBS"};
+		texts[]={"Disabled","TPWCAS","TPW EBS"};
 	};
  
   class ani_tpwlos {
@@ -50,8 +50,8 @@ class Params {
   
   class ani_enemy_faction {
 		title="Enemy faction";
-		values[]={0};
+		values[]={0,2};
 		default=0;
-		texts[]={"CSAT"};
+		texts[]={"CSAT", "AAF"};
 	};
 };

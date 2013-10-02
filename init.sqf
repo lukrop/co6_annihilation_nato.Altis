@@ -37,6 +37,7 @@ ani_revive = paramsArray select 6;
 // 4 = GRU Russian by massi
 // 5 = African Rebel Army by massi
 // 6 = African Rebel civilians by massi
+// 7 = USSOCOM DEVGRU by massi
 ani_enemyFaction = paramsArray select 7;
 
 switch (ani_enemy_skill) do {
