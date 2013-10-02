@@ -79,11 +79,6 @@ if(ani_acre == 1) then {
 // disable saving
 enableSaving [false, false];
 
-// set Date/Time
-setDate [2035,09,30,ani_daytime,0];
-// mcc_sandbox bug workaround
-[[0,0,0], "STATE:", ["time > 15", "setDate [2035,09,30,ani_daytime,0];", ""]] call CBA_fnc_createTrigger;
-
 // Viewdistance script
 [] execVM "taw_vd\init.sqf";
 

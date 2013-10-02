@@ -14,4 +14,4 @@
 _unit = _this select 1;
 
 _unit removeWeapon "ACRE_PRC152";
-_unit addWeapon "ACRE_PRC52";
+_unit addWeapon "ACRE_PRC152";

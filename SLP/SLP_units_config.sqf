@@ -100,8 +100,19 @@ case 6: //African civilan rebels by massi (african conflict)
     _helo = 		[];
     _plane =		[];
     _boat =     [];
-  };	
+  };
 
+case 7: //DEVGRU/USSOCOM/Rangers units by massi
+  {
+    _Leaderunits = 	["B_mas_usn_Soldier_SL_F", "B_mas_usn_Soldier_TL_F"];
+    _units =		["B_mas_usr_Helipilot_F","B_mas_usn_Soldier_F","B_mas_usn_Soldier_F", "B_mas_usn_Soldier_GL_F", "B_mas_usn_Soldier_AR_F", "B_mas_usn_Soldier_MG_F", "B_mas_usn_Soldier_M_F", "B_mas_usn_soldier_LAT_F"];
+    _vehicles = 	["B_mas_usd_Offroad_02_armed_F", "B_mas_usd_Offroad_01_armed_F", "B_mas_usr_MRAP_01_hmg_F", "B_mas_usr_MRAP_01_gmg_F"];
+    _tanks = 		[];
+    _helo = 		["B_mas_usr_Heli_Light_01_armed_F"];
+    _plane =		[];
+    _boat =     [];
+  };
+  
 /*case #: //Takistan army	
 	{
 		_Leaderunits = 	[""];

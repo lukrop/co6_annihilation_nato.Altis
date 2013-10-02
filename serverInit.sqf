@@ -13,6 +13,12 @@
 if(!isServer) exitWith{};
 private ["_teamBox", "_infzone1", "_infzone2"];
 
+// set Date/Time
+setDate [2035,09,30,ani_daytime,0];
+// mcc_sandbox bug workaround
+[[0,0,0], "STATE:", ["time > 15", "setDate [2035,09,30,ani_daytime,0];", ""]] call CBA_fnc_createTrigger;
+
+
 _gearbox1 = "Box_mas_usd_NATO_equip_F" createVehicle getMarkerPos "gearbox1";
 _gearbox2 = "Box_mas_usn_NATO_equip_F" createVehicle getMarkerPos "gearbox2";
 _gearbox3 = "Box_mas_usr_NATO_equip_F" createVehicle getMarkerPos "gearbox3";
@@ -56,4 +62,4 @@ waituntil {scriptdone SLP_init};
 sleep 5;
 ["ambient_patrol2",[ani_enemySide,ani_enemyFaction,10],["ambient_patrol2", 1800],[_infzone2,[3,5]],[[0,1],1,false],[],[],["patrol", 1800]] spawn SLP_spawn;
 
-_nil = [] execVM "missionManager.sqf";
+[] execVM "missionManager.sqf";
